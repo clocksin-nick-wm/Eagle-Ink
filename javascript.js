@@ -1,3 +1,2 @@
-/**
- * Created by session1 on 8/31/16.
- */
+$('.carousel').carousel({full_width: true});
+        

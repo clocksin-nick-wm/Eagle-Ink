@@ -1,46 +1,160 @@
 <!DOCTYPE html>
-        <html>
+<html>
 <head>
-    <title>Eagle Ink</title>
-    <!-- link to style/css page -->
-    <link type="text/css" href="styles.css" rel="stylesheet">
-    <!-- link to bootstrap -->
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="bootstrap-3.3.7-dist/css/font-awesome.min.css" rel="stylesheet">
-    <link href="bootstrap-social-gh-pages/bootstrap-social.css" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Stylesheets link -->
+    <link href="styles.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
-<nav class="nav navbar navbar-default navbar-static-top">
-    <div class="container">
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html"> Home </a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="product.html">Products</a> </li>
-            <li></li>
+<!-- navigation bar start -->
+<nav>
+    <!--declares navaigation as a wrapper and color is blue-->
+    <div class="nav-wrapper blue">
+        <!--logo and list of links for the index page of Eagle ink-->
+        <a href="#" class="brand-logo">Eagle Ink</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a> </li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a> </li>
         </ul>
-        <form class="nav navbar-right navbar-form">
-            <input type="text" placeholder="Login">
-        </form>
     </div>
 </nav>
-<header id="header">
-    <div class="container">
-    <h1>Eagle Ink</h1>
-        <p style="padding: 25px;"></p>
-    <p>Welcome to Eagle Ink the place to get products for SDOHS</p>
-    <p><a href="aboutus.html" class="btn btn-success btn-lg" role="button"> Learn More </a></p>
-    </div>
-</header>
-<div class="container">
-    <div class="row row-content">
+<!--slider declaration is set-->
+<div class="slider">
+    <ul class="slides">
+        <li>
+            <!--img source for the slider-->
+            <img src="http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg"> <!-- random image -->
+            <div class="caption center-align">
+                <!--caption for the image-->
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+        </li>
+        <li>
+            <!--img source for the slider-->
+            <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+            <div class="caption left-align">
+                <!--caption for the image-->
+                <h3>Left Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+        </li>
+        <li>
+            <!--img source for the slider-->
+            <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+            <div class="caption right-align">
+                <!--caption for the image-->
+                <h3>Right Aligned Caption</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+        </li>
+        <li>
+            <!--img source for the slider-->
+            <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+            <div class="caption center-align">
+                <!--caption for the image-->
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--this the information section about Eagle Ink-->
+<div id="about" class="container">
 
-    </div>
+</div>
+<div class="divider"></div>
+<!--this section is going to be used for the purchasing of products/order placement of Eagle Ink-->
+<div id="products">
+<div class="card card-1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg">
+    <p>Shirt</p>
+    <p>cost</p>
+</div>
+<div class="card card-1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg">
+    <p>Shirt</p>
+    <p>cost</p>
+</div>
+<div class="card card-1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg">
+    <p>Shirt</p>
+    <p>cost</p>
+</div>
+<div class="card card-1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg">
+    <p>Shirt</p>
+    <p>cost</p>
+</div>
+<div class="card card-1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg">
+    <p>Shirt</p>
+    <p>cost</p>
+</div>
+<br />
+<div class="card card-1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg">
+    <p>Shirt</p>
+    <p>cost</p>
+</div>
+<div class="card card-1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg">
+    <p>Shirt</p>
+    <p>cost</p>
 </div>
 
-<!-- javascript/functions for Bootstrap -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<div class="card card-1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg">
+    <p>Shirt</p>
+    <p>cost</p>
+</div>
+<div class="card card-1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg">
+    <p>Shirt</p>
+    <p>cost</p>
+</div>
+<div class="card card-1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg">
+    <p>Shirt</p>
+    <p>cost</p>
+</div>
+    </div>
+<div id="contact">
+
+</div>
+<footer class="page-footer blue">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Eagle Ink</h5>
+                <p class="grey-text text-lighten-4">Eagle Ink is a school based production of T-Shirts for student of Sandra Day O'Connor High School.</p>
+            </div>
+            <ul>
+                    <li><a class="grey-text text-lighten-3" href="#about"><i class="tiny material-icons">contacts</i> About</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#products">Products</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#contact"> <i class="tiny material-icons">info_outline</i>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2016 Copyright Text
+        </div>
+    </div>
+</footer>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
